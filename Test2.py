@@ -1,4 +1,4 @@
-"""
+"""Structured english
 start
 First open the text file in read mode.
 The for every line in a new list remove all the characters from the right in the list and then.
@@ -17,8 +17,26 @@ Create a new definition
     Print that final percent to the consol
 Call that definition
 end
+"""
+"""Psudocode
+open txt file
+add each line of the file to a list
+change the values from strings to integers
+add the values to a list
+print(len(list))
 
+average the integers of the list (sum/len)
 
+make new list ABV=[]
+assigin percentage variable percent = 0 (for now)
+
+add scores that are above average from old list to new list ( if score > avg then ABV.append)
+calculate rough percent avg:
+%avg = (lenABV/lenList)* 100
+format average to 2 decimal places, avgPercent = round(ABV, 2)
+print final formatted percent
+print(avgPercent)
+return
 
 """
 
